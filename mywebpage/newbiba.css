@@ -1,0 +1,209 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 13px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.nav li {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-left: 10px;
+    background-color: #333;
+    color: #fff;
+    width: max-content;
+}
+
+.nav>ul>li:hover>.sub-menu {
+    display: block;
+}
+
+td {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.image_in_head {
+    display: block;
+    float: none;
+    width: 100%;
+    height: auto;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.logo_text {
+    display: block;
+    float: left;
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 70px;
+    padding-right: 70px;
+    color: #333;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px #558abb;
+}
+
+.mini_header_text {
+    display: block;
+    width: auto;
+    min-width: 50%;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #558abb;
+}
+
+.quote_text {
+    display: block;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: blue;
+    font-style: italic;
+}
+
+.avg_text {
+    display: block;
+    width: auto;
+    min-width: 50%;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+.head_text {
+    color: #333;
+    font-size: 40px;
+    font-weight: 567;
+    width: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    /* серая линия снизу */
+    padding: 5px 0;
+    /* внутренние отступы для красоты */
+}
+
+li:last-child {
+    padding: 5px 0;
+}
+
+li {
+    list-style-type: none;
+    /* Убирает точки у элементов */
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    font-size: 27px;
+}
+
+.card {
+    margin-top: 60px;
+    background-color: rgba(230, 230, 250, 0.80);
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(60, 70, 120, 0.12);
+    overflow: hidden;
+}
+
+.thetable {
+    width: 100%;
+    display: table;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #333;
+    background-color: #F5C75B;
+    border: 5px solid #333;
+    /* серая линия снизу */
+    overflow: hidden;
+}
+
+.theothertable {
+    width: 100%;
+    display: table;
+    float: right;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #333;
+    background-color: #F5C75B;
+    border: 5px solid #333;
+    /* серая линия снизу */
+    overflow: hidden;
+}
+
+.what {
+    display: block;
+    float: right;
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 80px;
+}
+
+.top-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+body {
+    padding-top: 40px;
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("https://i.postimg.cc/RFby9L3z/de4ea4df7d95e72476d5dd48358ebec7.jpg");
+    min-width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
